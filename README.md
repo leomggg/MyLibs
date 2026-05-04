@@ -1,6 +1,8 @@
 # MyLibs
 
-Proyecto Java con Spring Boot, JWT y Vaadin.
+Proyecto MyLibs Java con Spring Boot, JWT y Vaadin.
+
+MyLibs es una aplicación de biblioteca personal online que permite guardar tus libros favoritos o pendientes, puntuarlos o añadir comentarios junto a otros lectores
 
 ## Inicio rapido
 ```powershell
