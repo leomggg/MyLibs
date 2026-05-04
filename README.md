@@ -9,6 +9,7 @@ MyLibs es una aplicación de biblioteca personal online que permite guardar tus 
 # Requiere JDK 17
 .\mvnw.cmd spring-boot:run
 ```
+Abre `http://localhost:8081` en tu navegador o usa los endpoints `/api/**`.
 
 ## Requisitos
 - JDK 17
