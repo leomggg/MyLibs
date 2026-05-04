@@ -16,7 +16,7 @@ public class LibroService {
     }
 
     public List<Libro> listarTodos() { return repository.findAll(); }
-    public void guardarLibro(Libro l) { repository.save(l); }
+    public Libro guardarLibro(Libro l) { return repository.save(l); }
 
     public Optional<Libro> buscarMiCopia(String titulo, String autor, Usuario usuario) {
         return repository.findByTituloIgnoreCaseAndAutorIgnoreCaseAndUsuario(titulo, autor, usuario);
